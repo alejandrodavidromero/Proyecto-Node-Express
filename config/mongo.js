@@ -6,7 +6,7 @@ const dbConnect = () => {
     DB_URI,
     {
       useNewUrlParser: true,
-      UseUnifieldTopology: true,
+      // UseUnifieldTopology: true,
     },
     (err, res) => {
       if (!err) {
